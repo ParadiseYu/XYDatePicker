@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "ParadiseYu" => "wxy1990926@126.com" }
 
-  s.source       = { :git => "https://github.com/ParadiseYu/XYDatePicker.git", :commit => "11993d7ad67d3ea5d2480459725372ba94bf28f7" }
+  s.source       = { :git => "https://github.com/ParadiseYu/XYDatePicker.git", :commit => "cb5e7e82b005139d76f443af4b8e995e38c1934a" }
 
   s.source_files  = "XYDatePicker/*.{h,m}"
 
@@ -22,5 +22,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "YYKit", "~> 1.0.9"
+
+  s.platform = :ios
 
 end

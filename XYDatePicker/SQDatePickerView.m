@@ -10,7 +10,9 @@
 
 #import "NSDateUtilities.h"
 
-#import <YYKit.h>
+#import <YYKit/NSDate+YYAdd.h>
+#import <YYKit/NSArray+YYAdd.h>
+#import <YYKit/YYCGUtilities.h>
 
 #define PICKERVIEW_HEIGHT (kScreenHeight)/3.0
 #define INDEX(array, index) [array objectOrNilAtIndex:index]

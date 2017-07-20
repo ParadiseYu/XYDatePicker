@@ -8,7 +8,9 @@
 
 #import "NSDateUtilities.h"
 
-#import <YYKit.h>
+#import <YYKit/NSDate+YYAdd.h>
+#import <YYKit/NSArray+YYAdd.h>
+#import <YYKit/YYCGUtilities.h>
 
 @implementation NSDate (Utilities)
 
